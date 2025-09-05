@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beefjerkymod:cooked_flesh"
+  },
+  "result": "beefjerkymod:crispy_flesh",
+  "experience": 0.5,
+  "cookingtime": 50
+}

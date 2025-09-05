@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[38,)"
+license="MIT"
+
+[[mods]]
+modId="beefjerkymod"
+version="1.0.0"
+displayName="Beef Jerky Mod"
+description="Turns rotten flesh into delicious jerky."
+
+[[dependencies.beefjerkymod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[38.0.0,)"
+    ordering="NONE"
+    side="BOTH"
