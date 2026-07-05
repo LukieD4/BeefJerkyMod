@@ -10,5 +10,8 @@ public class BeefJerkyMod {
 
     public BeefJerkyMod() {
         ModItems.register(FMLJavaModLoadingContext.get().getModEventBus());
+        // Loot handling is now done via ZombieBurnDropHandler, registered
+        // automatically through @Mod.EventBusSubscriber — no manual
+        // registration needed here.
     }
 }
